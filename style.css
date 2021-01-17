@@ -1,0 +1,276 @@
+﻿
+html,body {
+	height:100%;
+	width: 100%;
+	background-color: black;
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: bolder;
+	color:white;
+}
+
+p {
+	color:white;
+}
+
+
+.container {
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+
+
+/*-- NAV BAR--*/
+
+.navbar {
+	background-color: black;
+	padding: 1% 0;
+	font-size: 1.5em;
+	padding-right: 5%;
+}
+
+.navbar-brand {
+	min-height: 50px;
+	padding: 0 15px 5px 40px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	
+}
+
+/*-- BACKGROUND--*/
+
+#home {
+	background-image: url('https://i.ibb.co/s1G21Bj/colour7.png');
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 90px;
+	color:white;
+}
+
+#orange {
+	background-image: url('https://i.ibb.co/8PvyPvq/orange-3-boom.png');
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+
+#green {
+	margin-top: 10%;
+	background-image: url('https://i.ibb.co/926TD1V/green-boom.png');
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+#blue {
+	background-image: url('https://i.ibb.co/rp1T7kG/blueboom.png');
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+
+ #yellow {
+	background-image: url('https://i.ibb.co/bJcxBgm/yellow-boom.png');
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+
+	h2 {
+		font-size: 40px;
+		
+	}
+#green {
+	background-image: none;
+}
+
+#yellow {
+	background-image: none;
+
+}
+
+#blue {
+	background-image: none;
+
+}
+
+#orange {
+	background-image: none;
+
+}
+
+.landing-text h1 {
+	font-size: 60px;
+}
+
+
+.container {
+	width: 90%;
+	align: center;
+	margin-left: 8%;
+}
+
+
+
+.col-sm-6 img {
+	width: 400px;
+	text-align: center;
+}
+
+
+
+/*-- 
+
+
+
+
+.navbar-default{
+background-color: black !important;
+}
+
+.navbar {
+	min-height: 100px !important;
+	padding: 1%; 0;
+}
+
+.navbar-toggle {
+	margin-top: 20px !important;
+	padding: 20px 20px !important;
+	}
+}
+
+.active {
+	color: thistle !important;
+}
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
+
